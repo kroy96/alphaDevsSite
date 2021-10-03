@@ -1,0 +1,185 @@
+.display-on-desktop {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .display-on-desktop {
+    display: none;
+  }
+}
+
+.price-img {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .price-img {
+    display: none;
+  }
+}
+
+.display-on-tablet {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .display-on-tablet {
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .process-step-3 {
+    margin-top: 1rem;
+  }
+}
+
+.process-step-3 .marker-2:nth-of-type(2),
+.process-step-3 .marker-1 {
+  margin-top: 1rem;
+}
+
+.offer-section {
+  background: -webkit-gradient(linear, left bottom, left top, from(#2f2153), to(#21022b));
+  background: linear-gradient(0deg, #2f2153 0%, #21022b 100%);
+  color: #fff;
+}
+
+.offer-section .alpha-crat-section {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.offer-section .card-offer {
+  background: transparent;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0px 19.4078px 38.8156px rgba(0, 0, 0, 0.28);
+          box-shadow: 0px 19.4078px 38.8156px rgba(0, 0, 0, 0.28);
+}
+
+.offer-section .card-offer h3 {
+  min-height: 62px;
+}
+
+.offer-section .offer-part-2 h3 {
+  min-height: unset;
+}
+
+.box-1 {
+  position: absolute;
+  top: 41.5%;
+  left: 24%;
+  width: 49.25%;
+  height: 550px;
+  margin: auto;
+  border: 1px solid #222222;
+  border-left: none;
+  z-index: -1;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media (max-width: 1199px) {
+  .box-1 {
+    width: 49%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .box-1 {
+    width: 44%;
+  }
+}
+
+@media (max-width: 991px) {
+  .box-1 {
+    display: none;
+  }
+}
+
+.box-2 {
+  position: absolute;
+  left: 13%;
+  bottom: 39.7%;
+  width: 59%;
+  height: 350px;
+  margin: auto;
+  border: 1px solid #222222;
+  border-right: none;
+  z-index: -1;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+@media (max-width: 1199px) {
+  .box-2 {
+    bottom: 29.1%;
+    left: 13%;
+    width: 58%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .box-2 {
+    bottom: 46.7%;
+    left: 14.75%;
+    width: 52%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+  .box-2 {
+    display: none;
+  }
+}
+
+.btn-outline-dark {
+  background: #fff;
+}
+
+@font-face {
+  font-family: 'run-medium';
+  src: url("../fonts/Run-Medium/run.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-run-medium {
+  font-family: run-medium, sans-serif;
+}
+
+.c-service-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.c-service-card .c-services-content .bg-image {
+  width: 200px;
+  position: absolute;
+  bottom: 10px;
+  right: -10px;
+  opacity: .15;
+}
+
+.fixed-top {
+  position: fixed !important;
+}
+
+.font-colored {
+  color: #000 !important;
+}
+
+.font-colored span {
+  color: #DB3A74 !important;
+}
+
+.button-primary:hover {
+  color: #fff !important;
+}
+/*# sourceMappingURL=style.css.map */
